@@ -1,0 +1,60 @@
+/* work sans google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-bg-color: #212831;
+  --secondary-bg-color: #383d46;
+  --black: #000;
+  --white: #fff;
+  --padding: ;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--white);
+  font-family: "Work Sans", sans-serif;
+}
+
+/* ------- common style starts ------- */
+/* ------- common style ends ------- */
+
+/* ------- navbar section style starts ------- */
+#nav-container a:link,
+a:visited {
+  color: white !important;
+}
+
+#nav-container .dropdown-menu {
+  background-color: var(--secondary-bg-color);
+}
+
+#nav-container .dropdown-item:hover {
+  background-color: transparent;
+}
+/* ------- navbar section style ends ------- */
+
+/* ------- banner section style starts ------- */
+.banner-img-1 {
+  background-image: url(https://img.freepik.com/free-photo/shiny-night-city_1127-8.jpg?t=st=1715628254~exp=1715631854~hmac=284d57db70719421a50064b3a6e20e3d1b5bdbbe9b80d364b5c819ed0dc939eb&w=740);
+  height: 100vh;
+  background-size: cover;
+}
+.banner-img-2 {
+  background-image: url(https://img.freepik.com/free-photo/cityscape-xiangshan-trail-nighttime-taipei-taiwan_181624-60239.jpg?t=st=1715628345~exp=1715631945~hmac=b1fb723ed22d3dcced2be003f2a1c38cb7d05db8006632b284d4e3e94947e412&w=740);
+  height: 100vh;
+  background-size: cover;
+}
+.banner-img-3 {
+  background-image: url(https://img.freepik.com/premium-photo/night-city-bangkok_705804-2322.jpg?w=740);
+  height: 100vh;
+  background-size: cover;
+}
+/* ------- banner section style ends ------- */
+
+/* ------- commitment section style start ------- */
+#commitment {
+  background-color: var(--secondary-bg-color);
+  width: 85%;
+  margin-inline: auto;
+}
+/* ------- commitment section style ends ------- */
