@@ -16,6 +16,37 @@ body {
 }
 
 /* ------- common style starts ------- */
+
+.my-btn-outline {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 992px) {
+  .my-btn-outline {
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+.custom-my {
+  margin-block: 3rem;
+}
+@media only screen and (min-width: 992px) {
+  .custom-my {
+    margin-block: 5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .custom-my {
+    margin-block: 7rem;
+  }
+}
+
 /* ------- common style ends ------- */
 
 /* ------- navbar section style starts ------- */
@@ -54,7 +85,11 @@ a:visited {
 /* ------- commitment section style start ------- */
 #commitment {
   background-color: var(--secondary-bg-color);
-  width: 85%;
-  margin-inline: auto;
+}
+@media only screen and (min-width: 992px) {
+  #commitment {
+    width: 80%;
+    margin-inline: auto;
+  }
 }
 /* ------- commitment section style ends ------- */

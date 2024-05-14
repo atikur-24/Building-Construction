@@ -12,12 +12,12 @@
       crossorigin="anonymous"
     />
     <!-- vanilla css -->
-    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <main>
       <!-- navbar section starts -->
-      <header>
+      <header class="container-xxl my-lg-2 px-lg-4">
         <nav class="navbar navbar-expand-lg" id="nav-container">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Logo</a>
@@ -124,13 +124,31 @@
       </section>
       <!-- banner section ends -->
       <!-- commitment section starts -->
-      <section class="container-xxl my-5 py-5">
-        <div id="commitment" class="text-center py-5">
-          <h5 class="text-info">Our Commitment</h5>
+      <section class="container-xxl custom-my px-lg-4">
+        <div id="commitment" class="text-center p-3 p-md-4 p-lg-5">
+          <h5 class="text-info pb-1 pb-lg-2 fw-medium">Our Commitment</h5>
           <p>Eventide is dedicated to developing affordable, quality homes for low-income families in New Mexico.</p>
         </div>
       </section>
       <!-- commitment section ends -->
+      <!-- approach section start -->
+      <section class="container-xxl custom-my px-lg-4">
+        <div class="d-flex flex-column row-gap-5 flex-lg-row align-items-center justify-content-between">
+          <div class="text-center text-lg-start">
+            <h2 class="display-5 fw-semibold">Our Approach</h2>
+            <p class="pt-1 pt-lg-2 pb-3 pb-lg-4">Innovative solutions to the housing crisis.</p>
+            <button class="my-btn-outline">Learn How</button>
+          </div>
+          <div>
+            <img
+              class="rounded-2 img-fluid"
+              src="https://img.freepik.com/free-photo/speaking-outdoors_1098-14924.jpg?t=st=1715679173~exp=1715682773~hmac=a0f3a805b7815ce14376bb1702fe9382f2c8466eb94dcba13b45b3bae64923c0&w=540"
+              alt="building"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- approach section ends -->
     </main>
 
     <!-- bootstrap js cdn -->
