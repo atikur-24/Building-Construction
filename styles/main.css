@@ -15,6 +15,10 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.navbar-toggler {
+  background-color: var(--white);
+}
+
 /* ------- common style starts ------- */
 
 .my-btn-outline {
@@ -93,3 +97,33 @@ a:visited {
   }
 }
 /* ------- commitment section style ends ------- */
+
+/* ------- work section style start ------- */
+#work-container {
+  background-color: var(--secondary-bg-color);
+  padding-block: 3rem;
+}
+
+@media only screen and (min-width: 992px) {
+  #work-container {
+    padding-block: 5rem;
+  }
+}
+/* ------- work section style start ------- */
+
+/* ------- work section style start ------- */
+#homelessness-container {
+  background-color: var(--white);
+  color: var(--black);
+  padding-block: 4rem;
+}
+
+@media only screen and (min-width: 992px) {
+  #homelessness-container {
+    padding-block: 7rem;
+  }
+}
+/* ------- work section style start ------- */
+
+/* ------- work section style ends ------- */
+/* ------- work section style ends ------- */
