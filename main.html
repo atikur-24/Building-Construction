@@ -20,10 +20,10 @@
   <body>
     <main>
       <!-- navbar section starts -->
-      <header class="container-xxl my-lg-2 px-lg-4">
+      <header class="container-xxl my-lg-3 px-lg-4">
         <nav class="navbar navbar-expand-lg" id="nav-container">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand text-white fw-medium" href="/main.html">LOGO</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse justify-content-end text-white" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="/main.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
@@ -273,9 +273,9 @@
             />
           </div>
           <div class="text-center">
-            <h1 class="display-4 fw-bold">End Homelessness</h1>
-            <p class="fw-medium py-2">Every family deserves a home.</p>
-            <div>
+            <h1 class="display-4 fw-bold">Join Our Mission</h1>
+            <p class="fw-medium pt-2 pb-3">Get involved and help us build a better tomorrow.</p>
+            <div class="d-flex gap-3 gap-lg-4 align-items-center justify-content-center">
               <img class="img-fluid" src="/images/apple-store.png" alt="apple-store" />
               <img class="img-fluid" src="/images/play-store.png" alt="google-store" />
             </div>
@@ -285,8 +285,74 @@
       <!-- our mission section ends -->
 
       <!-- success stories section starts -->
-      <section class="container-xxl custom-my px-lg-4"></section>
+      <section class="container-xxl custom-my px-lg-4">
+        <div class="text-center pb-2 pb-lg-3">
+          <h1 class="display-4 fw-bold">Success Stories</h1>
+          <p class="fw-medium">Real stories from Eventide communities.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id="stories-container"></div>
+      </section>
       <!-- success stories section ends -->
+
+      <!-- footer section starts -->
+      <footer id="footer-container">
+        <div class="container-xxl custom-py px-lg-4">
+          <div class="row gy-3 row-cols-2 row-cols-lg-4 justify-content-between">
+            <div class="col">
+              <h5 class="fw-semibold mb-4">Eventide</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Who We Are</a>
+                </li>
+                <li>
+                  <a href="#">Join Our Team</a>
+                </li>
+                <li>
+                  <a href="#">Latest News</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="fw-semibold mb-4">Our Solutions</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Efficiency</a>
+                </li>
+                <li>
+                  <a href="#"> Housing Options</a>
+                </li>
+                <li>
+                  <a href="#"> Media Center</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="fw-semibold mb-4">Connect</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">@EventideNM</a>
+                </li>
+                <li>
+                  <a href="#">@EventideHomes</a>
+                </li>
+                <li>
+                  <a href="#">Community Talks</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5 class="fw-semibold mb-4">Monthly Updates</h5>
+              <p>Subscribe for news on housing and community growth</p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="email@eventidehomes.com" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                <button class="btn btn-info btn-lg" type="button" id="button-addon2"><i class="fas fa-arrow-right"></i></button>
+              </div>
+              <p>Legal Info Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer section ends -->
     </main>
 
     <!-- bootstrap js cdn -->
@@ -295,5 +361,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="/scripts/main.js"></script>
   </body>
 </html>
