@@ -15,7 +15,7 @@
 }
 
 #management-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(https://img.freepik.com/free-photo/pointing-sketch_1098-14323.jpg?t=st=1715831517~exp=1715835117~hmac=ecb6ccdfa9213d8fdd46ad7c3fd7601ece309c7524de8f964b52d177e7f4ee68&w=740);
   height: 90vh;
   background-size: cover;
