@@ -23,8 +23,10 @@
 }
 
 #consulting-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://img.freepik.com/premium-photo/modern-house-architecture-house-exterior-generative-ai_446633-7060.jpg?w=740);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://img.freepik.com/free-photo/working-housing-project_1098-17511.jpg?t=st=1715832663~exp=1715836263~hmac=a3274d2fc836a7ce760bc40b689182022ffd65405b348b0bb2c70d535e4cb87e&w=740);
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
