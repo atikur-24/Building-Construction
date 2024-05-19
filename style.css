@@ -6,6 +6,7 @@
   --secondary-bg-color: #383d46;
   --black: #000;
   --white: #fff;
+  --light: #9ca3af;
 }
 
 body {
@@ -163,3 +164,21 @@ body {
   color: var(--secondary-bg-color);
 }
 /* ------- footer style ends ------- */
+
+/* ------- contact us & about us page message section style starts ------- */
+.contact-us .form-control {
+  background-color: var(--primary-bg-color);
+  color: var(--white);
+  border-color: var(--light);
+}
+.contact-us .form-control::placeholder {
+  color: var(--light);
+}
+/* ------- contact us & about us page message section style ends ------- */
+
+/* Remove increment and decrement arrows from number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

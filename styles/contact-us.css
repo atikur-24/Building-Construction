@@ -1,0 +1,19 @@
+.newForm {
+  background-color: currentColor;
+}
+.newForm:focus {
+  background-color: currentColor;
+}
+
+.newForm::placeholder {
+  color: white;
+}
+
+#contact-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://img.freepik.com/free-photo/working-with-blueprint_1098-14292.jpg?t=st=1716091724~exp=1716095324~hmac=9f12d235bdf4d04f6c09d05618dddc7d34b957749d420ccd9bd8150016682b17&w=740);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
