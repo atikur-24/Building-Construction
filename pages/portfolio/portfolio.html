@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services | Including design</title>
+    <title>Contact Us</title>
     <!-- font awesome icon cdn -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
     <!-- bootstrap css cdn -->
@@ -15,7 +15,7 @@
     />
     <!-- vanilla css -->
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/styles/services.css" />
+    <link rel="stylesheet" href="/styles/portfolio.css" />
   </head>
   <body>
     <main>
@@ -45,18 +45,18 @@
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="/pages/services/including-design.html">Including Design</a></li>
                     <li><a class="dropdown-item" href="/pages/services/construction.html">Construction</a></li>
-                    <li><a class="dropdown-item" href="/pages/services/project-management.html">Project Management</a></li>
-                    <li><a class="dropdown-item" href="/pages/services/consulting-service.html">Consulting Service</a></li>
+                    <li><a class="dropdown-item" href="/pages/services//project-management.html">Project Management</a></li>
+                    <li><a class="dropdown-item" href="/pages/services//consulting-service.html">Consulting Service</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/pages/portfolio/portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/pages/contact-us/contact-us.html">Contact Us</a>
+                  <a class="nav-link" href="#">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/pages/about-us/about-us.html">About Us</a>
+                  <a class="nav-link" href="#">About Us</a>
                 </li>
                 <button style="width: fit-content" class="btn text-white border-1 border-white">Consulting</button>
               </ul>
@@ -66,34 +66,33 @@
       </header>
       <!-- navbar section ends -->
 
-      <!-- banner section starts -->
-      <section>
-        <div id="design-banner">
-          <div class="d-flex align-items-center h-100 justify-content-center">
-            <h1 class="display-4 fw-bold">Including Design</h1>
+      <!-- portfolio section starts -->
+      <section class="container-xxl custom-my px-lg-4">
+        <div class="mb-4 mb-lg-5">
+          <h1 class="display-4 fw-bold mt-3 mt-lg-4">Consulting Services</h1>
+          <div class="fw-semibold fs-5 d-flex gap-4">
+            <span class="border-start border-4 ps-3">All</span>
+            <span class="text-secondary">Modern</span>
+            <span class="text-secondary">Cost-Effective</span>
+            <span class="text-secondary">Other</span>
           </div>
         </div>
-      </section>
-      <!-- banner section ends -->
-
-      <!-- services section starts -->
-      <section class="container-xxl custom-my px-lg-4">
-        <h3 class="text-center pb-1 pb-lg-3 fw-semibold">Design Services:</h3>
-        <ul>
-          <li>
-            Eventide's design services encompass architectural design, interior design, and urban planning. They work closely with clients to understand their needs, preferences, and project goals.
-          </li>
-          <li class="py-1 py-md-2 py-lg-3">heir team of architects and designers create innovative and functional designs tailored to the specific requirements of each project.</li>
-          <li>Design services may include conceptual design, schematic design, design development, and construction documentation.</li>
-        </ul>
-        <div class="pt-3 pt-lg-4">
-          <p class="fs-5">
-            Eventide offers a comprehensive range of services spanning design, construction, project management, and consulting in the realm of real estate development and affordable housing
-            initiatives. Here's a breakdown of each aspect of their services:
-          </p>
+        <!-- portfolio cards -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="portfolio-container"></div>
+        <!-- back next and indicator -->
+        <div class="d-flex justify-content-center align-items-center gap-3 gap-lg-4 mt-4 mt-lg-5">
+          <button class="back-next-btn"><i class="fas fa-arrow-left"></i> Back</button>
+          <div class="d-flex align-items-center gap-2 gap-lg-3" id="indicator">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+          <button class="back-next-btn">Next <i class="fas fa-arrow-right"></i></button>
         </div>
+        <div></div>
       </section>
-      <!-- services section ends -->
+      <!-- portfolio section ends -->
 
       <!-- footer section starts -->
       <footer id="footer-container">
@@ -161,5 +160,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- vanilla js -->
+    <script src="/scripts/portfolio.js"></script>
   </body>
 </html>
