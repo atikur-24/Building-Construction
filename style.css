@@ -83,6 +83,12 @@ body {
   border-bottom: 2px solid white;
   width: fit-content;
 }
+
+@media only screen and (min-width: 992px) {
+  #nav-container li a.active {
+    width: 100%;
+  }
+}
 /* ------- navbar section style ends ------- */
 
 /* ------- banner section style starts ------- */
