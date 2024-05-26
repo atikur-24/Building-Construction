@@ -79,9 +79,9 @@ body {
   background-color: transparent;
 }
 
-#nav-container li a.active,
-#nav-container .dropdown-toggle.active {
+#nav-container li a.active {
   border-bottom: 2px solid white;
+  width: fit-content;
 }
 /* ------- navbar section style ends ------- */
 
