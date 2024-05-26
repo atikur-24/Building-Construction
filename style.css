@@ -78,6 +78,11 @@ body {
 #nav-container .dropdown-item:hover {
   background-color: transparent;
 }
+
+#nav-container li a.active,
+#nav-container .dropdown-toggle.active {
+  border-bottom: 2px solid white;
+}
 /* ------- navbar section style ends ------- */
 
 /* ------- banner section style starts ------- */
